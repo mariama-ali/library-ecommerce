@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/library-ecommerce/static/css/main.bbfd6271.css",
+    "main.js": "/library-ecommerce/static/js/main.47196591.js",
+    "static/js/787.c9630c43.chunk.js": "/library-ecommerce/static/js/787.c9630c43.chunk.js",
+    "static/media/undraw_Bookshelves_re_lxoy.png": "/library-ecommerce/static/media/undraw_Bookshelves_re_lxoy.5c1de49c5f6181728212.png",
+    "static/media/Library.svg": "/library-ecommerce/static/media/Library.70d0a6a90c21c295982ded03f9ea8615.svg",
+    "static/media/empty_cart.svg": "/library-ecommerce/static/media/empty_cart.378125a834ec5473a1cffd7c59e06527.svg",
+    "index.html": "/library-ecommerce/index.html",
+    "static/media/wave.svg": "/library-ecommerce/static/media/wave.42edd5970e3619090a0f.svg",
+    "main.bbfd6271.css.map": "/library-ecommerce/static/css/main.bbfd6271.css.map",
+    "main.47196591.js.map": "/library-ecommerce/static/js/main.47196591.js.map",
+    "787.c9630c43.chunk.js.map": "/library-ecommerce/static/js/787.c9630c43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbfd6271.css",
+    "static/js/main.47196591.js"
+  ]
+}
