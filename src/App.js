@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import { BrowserRouter as Router, Route} from 'react-router-dom'
-import library from "./pages/library-ecommerce";
+import library from "./pages/Home";
 import Books from "./pages/Books";
 import { books } from "./data";
 import BookInfo from "./pages/BookInfo";
@@ -43,10 +43,10 @@ function App() {
     <Router>
       <div className="App">
         <Nav numofItems={numofItems()} />
-        <Route path ="/library-ecommerce" exact component={library}/>
-        <Route path ="/books" exact render={() => <Books books={books} />}/>
-        <Route path ="/books/:id" render={() => <BookInfo books={books} addItemToCart={addItemToCart} cart={cart}/>}/>
-        <Route path ="/cart"  render={() => <Cart books={books} cart={cart} changeQuantity={changeQuantity}  removeItem={removeItem}/>}/>
+        <Route path ="/home" exact component={library}/>
+        <Route path ="home/books" exact render={() => <Books books={books} />}/>
+        <Route path ="home/books/:id" render={() => <BookInfo books={books} addItemToCart={addItemToCart} cart={cart}/>}/>
+        <Route path ="home/cart"  render={() => <Cart books={books} cart={cart} changeQuantity={changeQuantity}  removeItem={removeItem}/>}/>
         <Footer />
       </div>
     </Router>
