@@ -43,10 +43,10 @@ function App() {
     <Router>
       <div className="App">
         <Nav numofItems={numofItems()} />
-        <Route path ="/home" exact component={library}/>
-        <Route path ="home/books" exact render={() => <Books books={books} />}/>
-        <Route path ="home/books/:id" render={() => <BookInfo books={books} addItemToCart={addItemToCart} cart={cart}/>}/>
-        <Route path ="home/cart"  render={() => <Cart books={books} cart={cart} changeQuantity={changeQuantity}  removeItem={removeItem}/>}/>
+        <Route path ="/library-ecommerce" exact component={library}/>
+        <Route path ="library-ecommerce/books" exact render={() => <Books books={books} />}/>
+        <Route path ="library-ecommerce/books/:id" render={() => <BookInfo books={books} addItemToCart={addItemToCart} cart={cart}/>}/>
+        <Route path ="library-ecommerce/cart"  render={() => <Cart books={books} cart={cart} changeQuantity={changeQuantity}  removeItem={removeItem}/>}/>
         <Footer />
       </div>
     </Router>
